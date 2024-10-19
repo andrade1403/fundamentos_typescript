@@ -1,12 +1,9 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Aprendiz = exports.NivelEducativo = void 0;
-var NivelEducativo;
+export var NivelEducativo;
 (function (NivelEducativo) {
     NivelEducativo["BACHILLERATO"] = "Bachillerato";
     NivelEducativo["UNIVERSITARIO"] = "Universitario";
     NivelEducativo["POSGRADO"] = "Posgrado";
-})(NivelEducativo = exports.NivelEducativo || (exports.NivelEducativo = {}));
+})(NivelEducativo || (NivelEducativo = {}));
 var Aprendiz = /** @class */ (function () {
     function Aprendiz(nombres, apellidos, avatar, edad, nivelEducativo) {
         this.nombres = nombres;
@@ -17,4 +14,4 @@ var Aprendiz = /** @class */ (function () {
     }
     return Aprendiz;
 }());
-exports.Aprendiz = Aprendiz;
+export { Aprendiz };
