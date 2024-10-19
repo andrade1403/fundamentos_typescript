@@ -1,9 +1,12 @@
-export var NivelEducativo;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Aprendiz = exports.NivelEducativo = void 0;
+var NivelEducativo;
 (function (NivelEducativo) {
     NivelEducativo["BACHILLERATO"] = "Bachillerato";
     NivelEducativo["UNIVERSITARIO"] = "Universitario";
     NivelEducativo["POSGRADO"] = "Posgrado";
-})(NivelEducativo || (NivelEducativo = {}));
+})(NivelEducativo = exports.NivelEducativo || (exports.NivelEducativo = {}));
 var Aprendiz = /** @class */ (function () {
     function Aprendiz(nombres, apellidos, avatar, edad, nivelEducativo) {
         this.nombres = nombres;
@@ -14,4 +17,4 @@ var Aprendiz = /** @class */ (function () {
     }
     return Aprendiz;
 }());
-export { Aprendiz };
+exports.Aprendiz = Aprendiz;
